@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E14B67B1282431090095A7CC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B67B0282431090095A7CC /* Task.swift */; };
+		E14B67B4282431810095A7CC /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B67B3282431810095A7CC /* TaskListView.swift */; };
+		E15AB64B2823E3CF0056D23C /* OLDTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15AB64A2823E3CF0056D23C /* OLDTaskListView.swift */; };
+		E15AB64E2823E4D80056D23C /* WatchOsCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E15AB64C2823E4D80056D23C /* WatchOsCoreData.xcdatamodeld */; };
+		E1791BD12823D4FA00F7E350 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1791BD02823D4FA00F7E350 /* ExtensionDelegate.swift */; };
+		E1791BD32823D61000F7E350 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1791BD22823D61000F7E350 /* Food.swift */; };
+		E1791BD52823D86300F7E350 /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1791BD42823D86300F7E350 /* PomodoroView.swift */; };
+		E1791BD72823D9E200F7E350 /* ShortBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1791BD62823D9E200F7E350 /* ShortBreakView.swift */; };
+		E1791BD92823DAD200F7E350 /* LongBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1791BD82823DAD200F7E350 /* LongBreakView.swift */; };
+		E1C7E16628236C0500835A28 /* PomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7E16528236C0400835A28 /* PomodoroTimerView.swift */; };
+		E1C7E16828236D0600835A28 /* ShortBreakTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7E16728236D0600835A28 /* ShortBreakTimerView.swift */; };
+		E1C7E16A282370B200835A28 /* LongBreakTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C7E169282370B200835A28 /* LongBreakTimerView.swift */; };
+		E1FD64E128234051005F3054 /* Pomofocus WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E1FD64E028234051005F3054 /* Pomofocus WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1FD64E628234053005F3054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FD64E528234053005F3054 /* Assets.xcassets */; };
+		E1FD64EC28234053005F3054 /* Pomofocus WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E1FD64EB28234053005F3054 /* Pomofocus WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1FD64F128234053005F3054 /* PomofocusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FD64F028234053005F3054 /* PomofocusApp.swift */; };
+		E1FD64F328234053005F3054 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FD64F228234053005F3054 /* ContentView.swift */; };
+		E1FD64F528234053005F3054 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FD64F428234053005F3054 /* NotificationController.swift */; };
+		E1FD64F728234053005F3054 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FD64F628234053005F3054 /* NotificationView.swift */; };
+		E1FD64F928234053005F3054 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FD64F828234053005F3054 /* ComplicationController.swift */; };
+		E1FD64FB28234054005F3054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FD64FA28234054005F3054 /* Assets.xcassets */; };
+		E1FD64FE28234054005F3054 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FD64FD28234054005F3054 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1FD64E228234051005F3054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FD64D628234051005F3054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FD64DF28234051005F3054;
+			remoteInfo = "Pomofocus WatchKit App";
+		};
+		E1FD64ED28234053005F3054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FD64D628234051005F3054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FD64EA28234053005F3054;
+			remoteInfo = "Pomofocus WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1FD650628234054005F3054 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E1FD64EC28234053005F3054 /* Pomofocus WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FD650A28234054005F3054 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E1FD64E128234051005F3054 /* Pomofocus WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E14B67B0282431090095A7CC /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E14B67B3282431810095A7CC /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		E15AB64A2823E3CF0056D23C /* OLDTaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLDTaskListView.swift; sourceTree = "<group>"; };
+		E15AB64D2823E4D80056D23C /* WatchOsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchOsCoreData.xcdatamodel; sourceTree = "<group>"; };
+		E1791BD02823D4FA00F7E350 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E1791BD22823D61000F7E350 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		E1791BD42823D86300F7E350 /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
+		E1791BD62823D9E200F7E350 /* ShortBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortBreakView.swift; sourceTree = "<group>"; };
+		E1791BD82823DAD200F7E350 /* LongBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongBreakView.swift; sourceTree = "<group>"; };
+		E1C7E16528236C0400835A28 /* PomodoroTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimerView.swift; sourceTree = "<group>"; };
+		E1C7E16728236D0600835A28 /* ShortBreakTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortBreakTimerView.swift; sourceTree = "<group>"; };
+		E1C7E169282370B200835A28 /* LongBreakTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongBreakTimerView.swift; sourceTree = "<group>"; };
+		E1FD64DC28234051005F3054 /* Pomofocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomofocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FD64E028234051005F3054 /* Pomofocus WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pomofocus WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FD64E528234053005F3054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FD64EB28234053005F3054 /* Pomofocus WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pomofocus WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FD64F028234053005F3054 /* PomofocusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomofocusApp.swift; sourceTree = "<group>"; };
+		E1FD64F228234053005F3054 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1FD64F428234053005F3054 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E1FD64F628234053005F3054 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		E1FD64F828234053005F3054 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		E1FD64FA28234054005F3054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FD64FD28234054005F3054 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1FD64FF28234054005F3054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FD650028234054005F3054 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1FD64E828234053005F3054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E14B67AF282430EA0095A7CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E14B67B0282431090095A7CC /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E14B67B2282431630095A7CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1FD64F228234053005F3054 /* ContentView.swift */,
+				E14B67B3282431810095A7CC /* TaskListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1FD64D528234051005F3054 = {
+			isa = PBXGroup;
+			children = (
+				E1FD64E428234051005F3054 /* Pomofocus WatchKit App */,
+				E1FD64EF28234053005F3054 /* Pomofocus WatchKit Extension */,
+				E1FD64DD28234051005F3054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FD64DD28234051005F3054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FD64DC28234051005F3054 /* Pomofocus.app */,
+				E1FD64E028234051005F3054 /* Pomofocus WatchKit App.app */,
+				E1FD64EB28234053005F3054 /* Pomofocus WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FD64E428234051005F3054 /* Pomofocus WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E1FD64E528234053005F3054 /* Assets.xcassets */,
+			);
+			path = "Pomofocus WatchKit App";
+			sourceTree = "<group>";
+		};
+		E1FD64EF28234053005F3054 /* Pomofocus WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E1FD64F028234053005F3054 /* PomofocusApp.swift */,
+				E14B67B2282431630095A7CC /* View */,
+				E14B67AF282430EA0095A7CC /* Model */,
+				E1791BD42823D86300F7E350 /* PomodoroView.swift */,
+				E1C7E16528236C0400835A28 /* PomodoroTimerView.swift */,
+				E1791BD62823D9E200F7E350 /* ShortBreakView.swift */,
+				E1C7E16728236D0600835A28 /* ShortBreakTimerView.swift */,
+				E1791BD82823DAD200F7E350 /* LongBreakView.swift */,
+				E1C7E169282370B200835A28 /* LongBreakTimerView.swift */,
+				E15AB64A2823E3CF0056D23C /* OLDTaskListView.swift */,
+				E1FD64F428234053005F3054 /* NotificationController.swift */,
+				E1FD64F628234053005F3054 /* NotificationView.swift */,
+				E1FD64F828234053005F3054 /* ComplicationController.swift */,
+				E1791BD02823D4FA00F7E350 /* ExtensionDelegate.swift */,
+				E1FD64FA28234054005F3054 /* Assets.xcassets */,
+				E1FD64FF28234054005F3054 /* Info.plist */,
+				E1FD650028234054005F3054 /* PushNotificationPayload.apns */,
+				E1FD64FC28234054005F3054 /* Preview Content */,
+			);
+			path = "Pomofocus WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E1FD64FC28234054005F3054 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E15AB64C2823E4D80056D23C /* WatchOsCoreData.xcdatamodeld */,
+				E1791BD22823D61000F7E350 /* Food.swift */,
+				E1FD64FD28234054005F3054 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FD64DB28234051005F3054 /* Pomofocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FD650B28234054005F3054 /* Build configuration list for PBXNativeTarget "Pomofocus" */;
+			buildPhases = (
+				E1FD64DA28234051005F3054 /* Resources */,
+				E1FD650A28234054005F3054 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1FD64E328234051005F3054 /* PBXTargetDependency */,
+			);
+			name = Pomofocus;
+			productName = Pomofocus;
+			productReference = E1FD64DC28234051005F3054 /* Pomofocus.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E1FD64DF28234051005F3054 /* Pomofocus WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FD650728234054005F3054 /* Build configuration list for PBXNativeTarget "Pomofocus WatchKit App" */;
+			buildPhases = (
+				E1FD64DE28234051005F3054 /* Resources */,
+				E1FD650628234054005F3054 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1FD64EE28234053005F3054 /* PBXTargetDependency */,
+			);
+			name = "Pomofocus WatchKit App";
+			productName = "Pomofocus WatchKit App";
+			productReference = E1FD64E028234051005F3054 /* Pomofocus WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E1FD64EA28234053005F3054 /* Pomofocus WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FD650328234054005F3054 /* Build configuration list for PBXNativeTarget "Pomofocus WatchKit Extension" */;
+			buildPhases = (
+				E1FD64E728234053005F3054 /* Sources */,
+				E1FD64E828234053005F3054 /* Frameworks */,
+				E1FD64E928234053005F3054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pomofocus WatchKit Extension";
+			productName = "Pomofocus WatchKit Extension";
+			productReference = E1FD64EB28234053005F3054 /* Pomofocus WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FD64D628234051005F3054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E1FD64DB28234051005F3054 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					E1FD64DF28234051005F3054 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					E1FD64EA28234053005F3054 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E1FD64D928234051005F3054 /* Build configuration list for PBXProject "Pomofocus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1FD64D528234051005F3054;
+			productRefGroup = E1FD64DD28234051005F3054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FD64DB28234051005F3054 /* Pomofocus */,
+				E1FD64DF28234051005F3054 /* Pomofocus WatchKit App */,
+				E1FD64EA28234053005F3054 /* Pomofocus WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1FD64DA28234051005F3054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FD64DE28234051005F3054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FD64E628234053005F3054 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FD64E928234053005F3054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FD64FE28234054005F3054 /* Preview Assets.xcassets in Resources */,
+				E1FD64FB28234054005F3054 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1FD64E728234053005F3054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1791BD12823D4FA00F7E350 /* ExtensionDelegate.swift in Sources */,
+				E1FD64F528234053005F3054 /* NotificationController.swift in Sources */,
+				E1791BD92823DAD200F7E350 /* LongBreakView.swift in Sources */,
+				E1C7E16828236D0600835A28 /* ShortBreakTimerView.swift in Sources */,
+				E1791BD52823D86300F7E350 /* PomodoroView.swift in Sources */,
+				E1FD64F328234053005F3054 /* ContentView.swift in Sources */,
+				E15AB64B2823E3CF0056D23C /* OLDTaskListView.swift in Sources */,
+				E1791BD32823D61000F7E350 /* Food.swift in Sources */,
+				E14B67B1282431090095A7CC /* Task.swift in Sources */,
+				E1FD64F928234053005F3054 /* ComplicationController.swift in Sources */,
+				E1C7E16628236C0500835A28 /* PomodoroTimerView.swift in Sources */,
+				E1FD64F128234053005F3054 /* PomofocusApp.swift in Sources */,
+				E14B67B4282431810095A7CC /* TaskListView.swift in Sources */,
+				E1C7E16A282370B200835A28 /* LongBreakTimerView.swift in Sources */,
+				E15AB64E2823E4D80056D23C /* WatchOsCoreData.xcdatamodeld in Sources */,
+				E1791BD72823D9E200F7E350 /* ShortBreakView.swift in Sources */,
+				E1FD64F728234053005F3054 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1FD64E328234051005F3054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FD64DF28234051005F3054 /* Pomofocus WatchKit App */;
+			targetProxy = E1FD64E228234051005F3054 /* PBXContainerItemProxy */;
+		};
+		E1FD64EE28234053005F3054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FD64EA28234053005F3054 /* Pomofocus WatchKit Extension */;
+			targetProxy = E1FD64ED28234053005F3054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1FD650128234054005F3054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1FD650228234054005F3054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1FD650428234054005F3054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pomofocus WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = U9C37W734X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pomofocus WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pomofocus WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackreactor.rfp2202.fij.Pomofocus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		E1FD650528234054005F3054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pomofocus WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = U9C37W734X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pomofocus WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pomofocus WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackreactor.rfp2202.fij.Pomofocus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		E1FD650828234054005F3054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U9C37W734X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Pomofocus_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pomofocus WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackreactor.rfp2202.fij.Pomofocus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		E1FD650928234054005F3054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U9C37W734X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Pomofocus_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pomofocus WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackreactor.rfp2202.fij.Pomofocus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		E1FD650C28234054005F3054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U9C37W734X;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackreactor.rfp2202.fij.Pomofocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1FD650D28234054005F3054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U9C37W734X;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackreactor.rfp2202.fij.Pomofocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1FD64D928234051005F3054 /* Build configuration list for PBXProject "Pomofocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FD650128234054005F3054 /* Debug */,
+				E1FD650228234054005F3054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FD650328234054005F3054 /* Build configuration list for PBXNativeTarget "Pomofocus WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FD650428234054005F3054 /* Debug */,
+				E1FD650528234054005F3054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FD650728234054005F3054 /* Build configuration list for PBXNativeTarget "Pomofocus WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FD650828234054005F3054 /* Debug */,
+				E1FD650928234054005F3054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FD650B28234054005F3054 /* Build configuration list for PBXNativeTarget "Pomofocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FD650C28234054005F3054 /* Debug */,
+				E1FD650D28234054005F3054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E15AB64C2823E4D80056D23C /* WatchOsCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E15AB64D2823E4D80056D23C /* WatchOsCoreData.xcdatamodel */,
+			);
+			currentVersion = E15AB64D2823E4D80056D23C /* WatchOsCoreData.xcdatamodel */;
+			path = WatchOsCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1FD64D628234051005F3054 /* Project object */;
+}
